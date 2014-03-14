@@ -28,8 +28,8 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText1"
-        android:layout_below="@+id/editText1"
+        android:layout_alignLeft="@+id/txt_input_holder"
+        android:layout_below="@+id/txt_input_holder"
         android:layout_marginTop="14dp"
         android:text="@string/lbl_btn_7" />
 
@@ -170,8 +170,8 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/editText1"
-        android:layout_toRightOf="@+id/editText1"
+        android:layout_alignBottom="@+id/txt_input_holder"
+        android:layout_toRightOf="@+id/txt_input_holder"
         android:text="@string/lbl_btn_clear" />
 
 </RelativeLayout>
